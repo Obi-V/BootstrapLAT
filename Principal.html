@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/css/bootstrap.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4004e33201.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+ <!-- Header -->
+ <section class="row bg-primary bg-image p-0 m-0" style="background-image:url(./img/FondoHeader.png); ">
+    <section class="container-fluid">
+        <section class="row">
+            <section class="col">
+                <section class="row-md d-flex">
+                    <img src="./img/LogoArbol.png" class="mt-2 rounded-circle" style="height:80px;">
+                    <h1 class="display-1 mt-2 ml-3 mr-4 text-white">LAT</h1>
+                </section>
+            </section>
+            <section class="row col-sm d-flex m-sm-2 p-0 justify-content-center align-items-center">
+                <a href="./InicioSesion.html" class="btn btn-outline-secondary m-1">Iniciar Sesión</a>
+                <a href="./Registro.html" class="btn btn-outline-secondary m-1">Crear Cuenta</a>
+            </section>
+        </section>
+    </section>
+</section>
+
+
+    <!-- Subheader -->
+    <section class="row-md border border-secondary sticky-top" style="background-image:url(./img/FondoSubheader.png);">
+        <nav class="container-fluid">
+            <section class="d-flex justify-content-around text-white">
+                <a href="./Principal.html" class="h3 m-0 p-1">INICIO</a>
+                <a href="./Categorías.html" class="h3 m-0 p-1">CATEGORÍAS</a>
+                <a href="./Profesores.html" class="h3 m-0 p-1">PROFESORES</a>
+            </section>
+        </nav>
+    </section>
+
+    <!-- Carrusel -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide container-fluid" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="./img/Profe2.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src=" ./img/Profe3.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src=" ./img/Profe4.png" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src=" ./img/Profe5.png" alt="Fourth slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src=" ./img/Profe6.png" alt="Fifth slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src=" ./img/Profe7.png" alt="Sixth slide">
+            </div>
+        </div>
+    </div>
+
+    <!-- Profesor promocionado -->
+
+    <section class="row align-items-center bg-secondary p-0 m-0">
+        <section class="container-fluid">
+            <section class="row p-3 pl-5 bg-white m-5 border border-primary position-relative">
+                <section class="col-md">
+                    <h1 class=" display-2 mt-3 text-secondary font-weight-bold">El profesor más valorado este mes</h1>
+                    <p class="mt-md-5 mb-md-5 medium-font-size text-primary"><b>Antonio Jesús Lopez Gambero</b>, el
+                        profesor especializado
+                        en
+                        JavaScript<br>
+                        más aclamado por los alumnos. Caracterizado
+                        por su gran carisma.<br> y sus eficaces lecciones.<br>
+                        Además de contar con una gran experiencia previa en otros sectores.<br> de la investigación.</p>
+
+                    <a href="./PerfilProfe.html" class="col-4 btn btn-outline-primary">Visitar perfil</a>
+                </section>
+                <section class="col-md-3">
+                    <img class="img-fluid" src="./img/Gambero.png">
+                </section>
+            </section>
+        </section>
+    </section>
+
+    <!-- Fila 1 -->
+    <section class="container-fluid p-0 mt-4">
+        <h1 class="font-weight-bold text-primary"> Lo más buscado</h1>
+        <section class="row">
+            <!-- Columna 1 -->
+            <article class="col-md pr-md-3">
+                <img class="img-fluid" src="./img/springlogo.png">
+                <p class="font-weight-bold lead text-primary">Curso de Java y spring Boot 25h</p>
+                <p>3,50 <img class="w-25" src="./img/Estrellas.png">(15.598) <br>
+                    9,99€ &emsp; <s class="text-gray">25€</s></p>
+            </article>
+
+            <!-- Columna 2 -->
+            <article class="col-md pr-md-3">
+                <img class="img-fluid" src="./img/jslogo.png">
+                <p class="font-weight-bold lead text-primary">Curso de JavaScript 15h</p>
+                <p>3,50 <img class="w-25" src="./img/Estrellas.png">(15.598) <br>
+                    9,99€ &emsp; <s class="text-gray">25€</s></p>
+            </article>
+
+            <!-- Columna 3 -->
+            <article class="col-md pr-md-3">
+                <img class="img-fluid" src="./img/Profe2.png">
+                <p class="font-weight-bold lead text-primary">Antonio Hidalgo, Profesor particular de DAW</p>
+                <p>3,50 <img class="w-25" src="./img/Estrellas.png">(15.598) <br>
+                    8€/h</p>
+            </article>
+        </section>
+    </section>
+
+    <!-- Fila 2 -->
+    <section class="container-fluid p-0 mt-4">
+        <h1 class="font-weight-bold text-primary"> Profesores particulares en Español</h1>
+        <section class="row">
+            <!-- Columna 1 -->
+            <article class="col-md pr-md-3">
+                <img class="img-fluid" src="./img/Profe2.png">
+                <p class="font-weight-bold lead text-primary">Antonio Hidalgo, Profesor particular de DAW</p>
+                <p>3,50 <img class="w-25" src="./img/Estrellas.png">(15.598) <br>
+                    8€/h</p>
+            </article>
+
+            <!-- Columna 2 -->
+            <article class="col-md pr-md-3">
+                <img class="img-fluid" src="./img/Profe4.png">
+                <p class="font-weight-bold lead text-primary">Mónica Aranjuez, Profesora
+                    especializada en back end</p>
+                <p>3,50 <img class="w-25" src="./img/Estrellas.png">(15.598) <br>
+                    7€/h</p>
+            </article>
+            <!-- Columna 3 -->
+            <article class="col-md pr-md-3">
+                <img class="img-fluid" src="./img/Profe6.png">
+                <p class="font-weight-bold lead text-primary">Lidia Martinez, Profesora para universitarios</p>
+                <p>3,50 <img class="w-25" src="./img/Estrellas.png">(15.598) <br>
+                    14€/h</p>
+            </article>
+        </section>
+    </section>
+
+    <!-- Fila 3 -->
+    <section class="container-fluid p-0 mt-4">
+        <h1 class="font-weight-bold text-primary"> Lo más buscado</h1>
+        <section class="row">
+            <!-- Columna 1 -->
+            <article class="col-md pr-md-3">
+                <img class="img-fluid" src="./img/Profe4.png">
+                <p class="font-weight-bold lead text-primary">Mónica Aranjuez, Profesora
+                    especializada en back end</p>
+                <p>3,50 <img class="w-25" src="./img/Estrellas.png">(15.598) <br>
+                    7€/h</p>
+            </article>
+
+            <!-- Columna 2 -->
+            <article class="col-md pr-md-3">
+                <img class="img-fluid" src="./img/springlogo.png">
+                <p class="font-weight-bold lead text-primary">Curso de Java y spring Boot 25h</p>
+                <p>3,50 <img class="w-25" src="./img/Estrellas.png">(15.598) <br>
+                    9,99€ &emsp; <s class="text-gray">25€</s></p>
+            </article>
+            <!-- Columna 3 -->
+            <article class="col-md pr-md-3">
+                <img class="img-fluid" src="./img/Profe5.png">
+                <p class="font-weight-bold lead text-primary">Cristina Martinez, Profesora particular de DAW</p>
+                <p>3,50 <img class="w-25" src="./img/Estrellas.png">(15.598) <br>
+                    8€/h</p>
+            </article>
+        </section>
+    </section>
+
+    <!-- Footer -->
+    <footer class="col align-items-center text-white justify-content-center bg-primary p-2">
+        <section class="container-fluid">
+            <section class="row justify-content-center">
+                <i class=" h2 p-1 fa-brands fa-square-facebook"></i>
+                <i class=" h2 p-1 fa-brands fa-square-twitter"></i>
+                <i class=" h2 p-1 fa-brands fa-square-instagram"></i>
+            </section>
+            <section class="row justify-content-center justify-content-around">
+                <a href="./AdminUsuarios.html" class="badge badge-primary">Aviso de privacidad</a>
+                <a href="./AdminUsuarios.html" class="badge badge-primary">Política de cookies</a>
+                <a href="./Asistencia.html" class="badge badge-primary">Soporte técnico</a>
+                <a href="./Nosotros.html" class="badge badge-primary">Acerca de la empresa</a>
+            </section>
+        </section>
+    </footer>
+    </section>
+</body>
+
+</html>
